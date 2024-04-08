@@ -11,3 +11,6 @@ select * from users;
     -- getAllColumnAsList --> Set  --> size  --> EXPECTED
 
     select * from users;
+
+
+select count(*) from book_borrow where is_returned=0;
