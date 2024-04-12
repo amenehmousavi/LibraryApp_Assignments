@@ -11,10 +11,8 @@ import org.junit.Assert;
 
 public class DashboardPageStepDefs {
 
-
     LoginPage loginPage;
     DashBoardPage dashBoardPage;
-
     String globalBorrowedBooksNumberUI;
 
     @Given("the {string} on the home page")
