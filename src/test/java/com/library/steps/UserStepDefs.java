@@ -60,9 +60,9 @@ public class UserStepDefs {
     }
     @Then("verify the below columns are listed in result")
     public void verify_the_below_columns_are_listed_in_result(List<String> expectedColumnNames) {
-      List<String> actualColumnNames=  DB_Util.getAllColumnNamesAsList();
+        List<String> actualColumnNames=  DB_Util.getAllColumnNamesAsList();
 
-      Assert.assertEquals(expectedColumnNames,actualColumnNames);
+        Assert.assertEquals(expectedColumnNames,actualColumnNames);
 
     }
 }
